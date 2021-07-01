@@ -1,0 +1,53 @@
+.card.static {
+  width: 33%;
+  margin: 1% 35% 10% 35%;
+  padding: 1.5%;
+  padding-bottom: 0.4%;
+  text-align: left;
+  border-radius: 25px;
+}
+
+button.btn.plusButton.shadow-none {
+  background-color: #abcfd8;
+  border-color: transparent;
+  position: absolute;
+  right: 15px !important;
+  top: 15px !important;
+}
+
+button.btn-primary:focus {
+  background-color: #abcfd8;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.static .plusButton:hover {
+  background-color: #abcfd8;
+  border-color: transparent;
+  color: black;
+}
+
+h4.headerClass {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media only screen and (max-width: 768px) {
+  .card.static {
+    width: 80%;
+    margin: 6% 10%;
+    padding: 4%;
+  }
+  .static .plusButton {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1040px) {
+  .card.static {
+    width: 40%;
+    margin-left: 30%;
+  }
+}

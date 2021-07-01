@@ -1,0 +1,63 @@
+.card.created {
+  background-color: #abcbd3;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-left: 65px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  height: 0 auto;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+  align-items: center;
+}
+
+.created {
+  margin-bottom: 5px;
+}
+
+.created:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+button.buttonStyle {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+  display: grid;
+}
+
+button.buttonStyle:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+}
+
+button.buttonStyle:active {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+}
+button.buttonStyle:focus {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+}
+
+.btn.buttonStyle {
+  padding: 0%;
+}
+.card-title.taskName {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  align-content: center;
+  padding-left: 1rem;
+}
+
+.rowClass {
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.alertClass {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .alertClass {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+}

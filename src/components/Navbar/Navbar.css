@@ -1,0 +1,33 @@
+.navbar-brand {
+  margin-left: 5rem;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.navigationBar {
+  background-color: #42505e;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .navbar-header {
+    display: flex;
+    padding-left: 1px;
+  }
+  .navbar-brand {
+    padding-right: 1rem;
+  }
+
+  .navbar-toggle {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+
+  .navbar-toggler {
+    margin-left: 1rem;
+    float: left !important;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 1rem !important ;
+  }
+}

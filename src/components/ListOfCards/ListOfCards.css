@@ -1,0 +1,20 @@
+ul.listOfCards {
+  max-height: 325px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-top: none;
+  padding-left: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  ul.listOfCards {
+    max-height: 282px;
+    margin-bottom: 0%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1040px) {
+  ul.listOfCards {
+    max-height: 285px;
+  }
+}
