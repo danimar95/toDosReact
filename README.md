@@ -14,7 +14,7 @@
 This is a simple task manager app where users are able to create, delete and update a task. It was developed using react and Bootstrap for the styles.
 The app also connects with the jsonplaceholder's API "/todos", a free and fake API available for tests which allowed me to implement the CRUD operations (Create/Post Method, Read/Get Method, Update/Put Method and Delete/Delete Method) in my app, meaning that when you run the code, the first thing you'll see is a list of tasks defined by the API used and by the GET method.
 
-As I'm working in the development of my portfolio, this is my third created app. It looks exactly the same as the toDos Javascript and the toDosJQuery apps available in my repositories but the interactivity is made with react. I choosed to make a to dos app beacuse i think it is a simple way of showing my skills and understanding of html, css, bootstrap, RESTful APIs and in this case React.
+As I'm working in the development of my portfolio, this is my third created app. It looks exactly the same as the toDos Javascript and the toDosJQuery apps available in my repositories but the interactivity was made with react. It consists of six components that, combined with the store and the todoSlice where the reducers go, create the app. I choosed to make a to dos app beacuse i think it is a simple way of showing my skills and understanding of html, css, bootstrap, RESTful APIs and in this case React.
 
 ## Instructions
 
