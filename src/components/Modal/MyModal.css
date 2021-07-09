@@ -36,6 +36,15 @@ Button.saveButton:hover {
   margin-bottom: 1rem;
 }
 
+button.swal2-styled.swal2-confirm {
+  background-color: #abcfd8;
+}
+
+div.swal2-icon.swal2-warning {
+  border-color: #ca321e;
+  color: #ca321e;
+}
+
 @media (max-width: 767px) {
   .modal {
     margin-top: 5rem;

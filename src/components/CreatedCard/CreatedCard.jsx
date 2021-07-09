@@ -84,7 +84,7 @@ const CreatedCard = ({ id, title, completed }) => {
 
 CreatedCard.propTypes = {
   title: PropTypes.string.isRequired,
-  id: PropTypes.func.isRequired,
+  id: PropTypes.number.isRequired,
   completed: PropTypes.bool.isRequired,
   handleShow: PropTypes.func,
 };

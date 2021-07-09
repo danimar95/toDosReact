@@ -8,6 +8,7 @@ import PropTypes from "prop-types";
 import { useDispatch } from "react-redux";
 import { addTodoAsync, editTodoAsync } from "../../redux/todoSlice";
 import "./MyModal.css";
+import Swal from "sweetalert2";
 
 const MyModal = (props) => {
   const dispatch = useDispatch();
@@ -21,6 +22,7 @@ const MyModal = (props) => {
         props.handleClose();
       } else {
         props.handleClose();
+        Swal.fire({ title: "Warning", text: "Please add a task title!", icon: "warning" });
       }
     } else {
       if (taskTitle.length > 0) {
@@ -28,6 +30,7 @@ const MyModal = (props) => {
         props.handleClose();
       } else {
         props.handleClose();
+        Swal.fire("Warning", "Please add a task title!", "warning");
       }
     }
   };

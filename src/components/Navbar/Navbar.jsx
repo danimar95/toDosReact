@@ -16,8 +16,8 @@ const NavigationBar = () => (
           <FontAwesomeIcon icon={faInfoCircle}></FontAwesomeIcon>
           &nbsp;Information
         </Nav.Link>
-        <Nav.Link className="nav-link options" eventKey="2" active href="#">
-          <FontAwesomeIcon active icon={faTasks}></FontAwesomeIcon>
+        <Nav.Link className="nav-link options" eventKey="2" href="#" active="active">
+          <FontAwesomeIcon icon={faTasks} active="active"></FontAwesomeIcon>
           &nbsp;Task Manager
         </Nav.Link>
       </Nav>
